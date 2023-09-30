@@ -1,6 +1,6 @@
 # **Wav2Lip**: *Accurately Lip-syncing Videos In The Wild*
 
-For commercial requests, please contact us at radrabha.m@research.iiit.ac.in or prajwal.k@research.iiit.ac.in. We have an HD model ready that can be used commercially.
+This repository has been forked and updated by Ahrimdon. This repository fixes many of setup and requirements the other Wav2Lip repositories have. This should be pretty straightforward.
 
 This code is part of the paper: _A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild_ published at ACM Multimedia 2020. 
 
