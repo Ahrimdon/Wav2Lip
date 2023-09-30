@@ -32,9 +32,17 @@ All results from this open-source code or our [demo website](https://bhaasha.iii
 Prerequisites
 -------------
 - `Python 3.7` (Tested with `Python 3.7.0`) 
-- ffmpeg: `sudo apt-get install ffmpeg`
-- Install necessary packages using `pip install -r requirements.txt`. Alternatively, instructions for using a docker image is provided [here](https://gist.github.com/xenogenesi/e62d3d13dadbc164124c830e9c453668). Have a look at [this comment](https://github.com/Rudrabha/Wav2Lip/issues/131#issuecomment-725478562) and comment on [the gist](https://gist.github.com/xenogenesi/e62d3d13dadbc164124c830e9c453668) if you encounter any issues. 
+- ffmpeg: `sudo apt-get install ffmpeg` or [Add the Binary to PATH](https://github.com/BtbN/FFmpeg-Builds/releases)
+- Wav2Lip model `wav2lip.pth` or `wav2lip_gan.pth` downloaded to `checkpoints/`
 - Face detection [pre-trained model](https://www.adrianbulat.com/downloads/python-fan/s3fd-619a316812.pth) should be downloaded to `face_detection/detection/sfd/s3fd.pth`. Alternative [link](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/prajwal_k_research_iiit_ac_in/EZsy6qWuivtDnANIG73iHjIBjMSoojcIV0NULXV-yiuiIg?e=qTasa8) if the above does not work.
+
+Install
+-------------
+- Clone the repository `git clone https://github.com/Ahrimdon/Wav2Lip.git` && `cd Wav2Lip`
+- Install requirements `pip install -r requirements.txt`
+- Resize video and change FPS using `reduce_fps.bat` or `reduce_fps.ps1`. *Videos that are 25/30 FPS and 1280x720p will yield the best results*
+- Run `wav2lip.bat` with your custom parameters to start syncing lips!
+
 
 Getting the weights
 ----------
