@@ -38,9 +38,10 @@ Prerequisites
 
 Install
 -------------
-- Clone the repository `git clone https://github.com/Ahrimdon/Wav2Lip.git` && `cd Wav2Lip`
+- Clone the repository `git clone https://github.com/Ahrimdon/Wav2Lip.git && cd Wav2Lip`
 - Install requirements `pip install -r requirements.txt`
-- Resize video and change FPS using `reduce_fps.bat` or `reduce_fps.ps1`. *Videos that are 25/30 FPS and 1280x720p will yield the best results*
+- Resize video and change FPS using `reduce_fps.bat` or `reduce_fps.ps1`
+    * *Videos that are 25/30 FPS and 1280x720p will yield the best results*
 - Run `wav2lip.bat` with your custom parameters to start syncing lips!
 
 
